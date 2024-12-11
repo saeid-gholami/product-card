@@ -1,0 +1,146 @@
+.card {
+    background-color: rgb(36 42 56);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.card_content {
+    padding: 0.5rem 1rem;
+}
+
+.card__title {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+
+.card__text {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 0.975rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+.card__infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card__teacher {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.card__teacher>svg {
+    width: 21.5px;
+}
+
+.card__teacher-teacher {
+    font-weight: 500;
+    font-size: 0.890rem;
+    margin-right: 0.25rem;
+    line-height: 1rem;
+}
+
+.card__score {
+    display: flex;
+    align-items: center;
+    color: rgb(245 158 11);
+    font-weight: 500;
+}
+
+.card__score-text {
+    line-height: 1rem;
+    padding-top: 0.4rem;
+    margin-left: 0.25rem;
+}
+
+.card__registers-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.card_registers {
+    display: flex;
+    align-items: center;
+}
+
+.card_registers>svg {
+    width: 21.5px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.card__registers-count {
+    font-weight: 500;
+    font-size: 0.975rem;
+    margin-right: 0.25rem;
+    color: #fff;
+    opacity: 0.7;
+    font-family: sans-serif;
+}
+
+.card_registers-text {
+    color: rgb(34 197 94);
+    display: flex;
+    align-items: center;
+}
+
+.card_registers-text span:nth-child(1) {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 0.1rem;
+}
+
+.card_registers-text span:nth-child(2) {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width:768px) {
+    .header__text {
+        font-size: 0.8rem;
+    }
+
+    .header__text-link {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__text {
+        font-size: 0.6rem;
+        margin-right: 0.3rem;
+    }
+
+    .header__text-link {
+        font-size: 0.5rem;
+        margin-right: 0.8rem;
+    }
+    .header__title>svg {
+        width: 20px;
+    }
+}

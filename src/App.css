@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "YekanBakh";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../public/fonts/YekanBakh-Bold.bbd877a3.woff") format("woff");
+}
+
+@font-face {
+    font-family: "YekanBakh";
+    font-weight: bolder;
+    font-style: normal;
+    src: url("../public/fonts/YekanBakh-Fat.e508fcc6.woff") format("woff");
+}
+
+@font-face {
+    font-family: "YekanBakh";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../public/fonts/YekanBakh-Medium.f7360956.woff") format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17 24 39);
+    font-family: "YekanBakh";
+}
+
+.container{
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.Card__wrapper {
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(290px , 1fr));
+    gap: 1.1rem;
+}
