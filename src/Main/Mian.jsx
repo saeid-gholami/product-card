@@ -4,7 +4,7 @@ function Main() {
     return (
         <main>
             <div className="card">
-                <img src="public/images/Three_1-1-768x432.webp" alt="card image" className="card__img" />
+                <img src="images/Three_1-1-768x432.webp" alt="card image" className="card__img" />
                 <div className="card_content">
                     <h2 className="card__title">
                         آموزش انیمیشن سازی برای فرانت‌اند با GSAP و Three.js
@@ -21,7 +21,7 @@ function Main() {
                         </div>
                         <div className="card__score">
                             <p className="card__score-text">5.0</p>
-                            <img src="public/images/star.svg" alt="score image" />
+                            <img src="images/star.svg" alt="score image" />
                         </div>
                     </div>
                     <div className="card__registers-price">
